@@ -170,7 +170,7 @@ void S_command(char* input){
     }
     if(src==-1||dest==-1) return;
     int distance = dijkstra(graph,src,dest);
-    printf("Dijsktra shortest path: %d\n" , distance);
+    printf("Dijsktra shortest path: %d \n" , distance);
 }
 void T_command(char* input){ 
     int i=0;
@@ -192,7 +192,7 @@ void T_command(char* input){
     list = realloc(list, ((i + 1) * sizeof(char)));
     *(list + i) = '\0';
     int answer = TSP_cmd(graph , list , i);
-    printf("TSP shortest path: %d\n" , answer);
+    printf("TSP shortest path: %d \n" , answer);
 }
 
 

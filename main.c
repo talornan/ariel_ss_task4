@@ -170,7 +170,7 @@ void S_command(char* input){
     }
     if(src==-1||dest==-1) return;
     int distance = dijkstra(graph,src,dest);
-    printf("Dijsktra shortest path: %d\n",distance);
+    printf("Dijsktra shortest path: %d\n" , distance);
 }
 void T_command(char* input){ 
     int i=0;

@@ -192,7 +192,7 @@ void T_command(char* input){
     list = realloc(list, ((i + 1) * sizeof(char)));
     *(list + i) = '\0';
     int answer = TSP_cmd(graph , list , i);
-    printf("TSP shortest path: %d \n" , answer);
+    printf("TSP shortest path: %d\n" , answer);
 }
 
 
